@@ -1,0 +1,17 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+import { useQueryProvider } from "vue-query";
+
+useQueryProvider();
+</script>
+
+<template>
+  <RouterView />
+</template>
+
+<style scoped>
+header {
+  line-height: 1.5;
+  max-height: 100vh;
+}
+</style>
